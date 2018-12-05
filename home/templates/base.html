@@ -13,12 +13,9 @@
     <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
-<div id="mySidenav" class="sidenav">
+<div id="myLeftblade" class="leftblade">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <a href="#">Left Blade</a>
 </div>
 
 <!-- Use any element to open the sidenav -->
@@ -35,10 +32,10 @@
 <script>
 /* Set the width of the side navigation to 250px */
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("myLeftblade").style.width = "250px";
 }
 
 /* Set the width of the side navigation to 0 */
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("myLeftblade").style.width = "0";
 }</script>
